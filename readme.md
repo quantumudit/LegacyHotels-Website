@@ -38,7 +38,7 @@ Having proficiency in these skills will help to ensure that the website is devel
 
 ## Hosting
 
-The website for the fictitious hotel chain, Legacy Hotels, is currently hosted on GitHub using the GitHub Pages feature. The website is static and can be accessed at the following URL: **[Legacy Hotels Website][website_link]**
+The website for the fictitious hotel chain, Legacy Hotels, is currently hosted on GitHub using the GitHub Pages feature. The website can be accessed at the following URL: **[Legacy Hotels Website][website_link]**
 
 ## Support
 
@@ -66,7 +66,7 @@ This license allows reusers to distribute, remix, adapt, and build upon the mate
 
 <!-- External Links -->
 
-[website_link]: https://quantumudit.github.io/Dreamzone-Company-Website/
+[website_link]: https://quantumudit.github.io/LegacyHotels-Website/
 
 <!-- Profile Links -->
 
