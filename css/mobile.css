@@ -102,6 +102,10 @@
     font-size: 2.5rem;
 }
 
+#about-info p{
+    text-align: center;
+}
+
 /* ############### Testimonials Section Stykes ############### */
 
 #testimonials .comments{
