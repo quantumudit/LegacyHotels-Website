@@ -1,0 +1,148 @@
+/* *************************************************** */
+/* ############### INDEX PAGE STYLES ################# */
+/* *************************************************** */
+
+
+/* ############### Navigation Bar Styles ############### */
+
+.nav-content{
+    display: block;
+}
+
+.nav-content ul{
+    display: block;
+    /* justify-content: space-around; */
+}
+
+.nav-content ul li a{
+    padding: 5px;
+    border-bottom: #333 dotted 1px;
+}
+
+#navbar .logo{
+    text-align: center;
+}
+
+/* ############### Showcase Division Styles ############### */
+
+#showcase{
+    height: 350px;
+    text-align: center;
+}
+
+.showcase-content h1{
+    font-size: 3.5rem;
+}
+
+.showcase-content p{
+    font-size: 2rem;
+}
+
+/* ############### Home Info Section Style ############### */
+
+#home-info{
+    display: block;
+    height: 450px;
+}
+
+
+#home-info .info-image{
+    display: none;
+}
+
+#home-info .info-content{
+    width: 100%;
+}
+
+#home-info .info-content h2,
+#home-info .info-content p{
+    padding-bottom: 20px;
+}
+
+#home-info .info-content a{
+    margin-bottom: 30px;
+}
+
+/* ############### Features Section Styles ############### */
+
+#features{
+    display: block;
+}
+
+#features .block{
+    width: 100%;
+    padding: 30px;
+}
+
+/* **************************************************** */
+/* ############### ABOUT US PAGE STYLES ############### */
+/* **************************************************** */
+
+/* ############### About Info Section Stykes ############### */
+
+#about-info{
+    display: block;
+}
+
+#about-info .info-image,
+#about-info .info-text{
+    width: 100%;
+    min-height: 100%;
+}
+
+#about-info .info-image img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 10%;
+}
+
+.l-heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* ############### Testimonials Section Stykes ############### */
+
+#testimonials .comments{
+    display: block;
+}
+
+#testimonials .comments img{
+    float: left;
+    border-radius: 5px;
+    margin: 10px 10px;
+    width: 100px;
+}
+
+#testimonials .comments::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+#testimonials .comments p{
+    margin: 10px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+}
+
+/* **************************************************** */
+/* ############### CONTACT US PAGE STYLES ############### */
+/* **************************************************** */
+
+
+/* ############### Contact Form Stykes ############### */
+
+#contact-form .lead-light{
+    font-size: 1.4rem;
+    line-height: 1.2em;
+}
+
+/* ############### Contact Info Stykes ############### */
+
+.contact-info .block{
+    border-bottom: 1px dotted #111;
+}

@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* ############### CSS Reset ############### */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ############### Main Styles ############### */
+
+:root {
+	font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+h1, h2, h3, h4{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* ############### Utility Classes ############### */
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.bg-dark{
+    background: #403C38;
+    color: #F2F2F2;
+}
+
+.bg-light{
+    background: #ddd;
+    color: #403C38;
+}
+
+.bg-primary{
+    background: #BF9169;
+    color: #222;
+}
+
+.text-primary{color: #BF9169;}
+
+.lead{
+    font-size: 2rem;
+    line-height: 1.8em;
+}
+.lead-light{
+    font-size: 1.6rem;
+    line-height: 1.8em;
+}
+
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 30px 0;}
+
+.plx-1{padding-left: 10px;}
+.plx-2{padding-left: 20px;}
+.plx-3{padding-left: 30px;}
+
+.l-heading{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #F2F2F2;
+    background: #BF9169;
+}
+
+.btn-primary{
+    font-size: 1.8rem;
+    color: #F2F2F2;
+    background: #403C38;
+}
+
+.btn-secondary{
+    color: #403C38;
+    background: #F2F2F2;
+    font-weight: 700;
+}
+
+
+/* *************************************************** */
+/* ############### INDEX PAGE STYLES ################# */
+/* *************************************************** */
+
+
+/* ############### Navigation Bar Styles ############### */
+
+#navbar{
+    background: #403C38;
+    color: #F2F2F2;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.nav-content ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-content ul a:hover,
+.nav-content ul a.current{
+    background: #444;
+    color: #BF9169;
+}
+
+#navbar .logo{
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+/* ############### Showcase Division Styles ############### */
+
+#showcase{
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0, 0, 0, 0.75)), url("../images/header-bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 50px;
+    color: #F2F2F2;
+}
+
+.showcase-content h1{
+    font-size: 5rem;
+    line-height: 1.2em;
+}
+
+.showcase-content p{
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+    line-height: 1.7em;
+}
+
+/* ############### Home Info Section Style ############### */
+
+#home-info{
+    display: flex;
+    height: 450px;
+}
+
+#home-info .info-image{
+    width: 50%;
+    background: url("../images/hotel-info.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* ############### Features Section Styles ############### */
+
+#features{
+    display: flex;
+    justify-content: center;
+}
+
+#features .block{
+    padding: 50px;
+    text-align: center;
+    width: 33.3333%;
+}
+
+#features .block i{
+    margin-bottom: 10px;
+}
+
+#features .block h3{
+    font-size: 1.8rem;
+}
+
+#features .block p{
+    font-size: 1.2rem;
+}
+
+/* ############### Footer Section Stykes ############### */
+
+#footer{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer i{
+    margin: 1.5rem;
+}
+
+#footer i:hover{
+    color: #BF9169;
+}
+
+/* **************************************************** */
+/* ############### ABOUT US PAGE STYLES ############### */
+/* **************************************************** */
+
+
+/* ############### About Info Section Stykes ############### */
+
+#about-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-info .info-image,
+#about-info .info-text{
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-image img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 10%;
+}
+
+/* ############### Testimonials Section Stykes ############### */
+
+#testimonials{
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0, 0, 0, 0.75)), url("../images/testimonial-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+
+
+#testimonials h2{
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .comments{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    opacity: 0.85;
+
+}
+
+#testimonials .comments img{
+    width: 100px;
+    margin:0 20px;
+    border-radius: 50px;
+}
+
+#testimonials .comments p{
+    margin: 10px;
+    font-weight: 500;
+}
+
+
+/* **************************************************** */
+/* ############### CONTACT US PAGE STYLES ############### */
+/* **************************************************** */
+
+
+/* ############### Contact Form Stykes ############### */
+
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form .form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus{
+    outline: none;
+    border-color: #BF9169;
+}
+
+#contact-form .form-group textarea{
+    height: 200px;
+}
+
+#contact-form button{
+    border-radius: 5px;
+    border: none;
+}
+
+#contact-form button:hover{
+    border: none;
+}
+
+
+/* ############### Contact Info Stykes ############### */
+
+.contact-info{
+    background: #333;
+    color: #F2F2F2;
+}
