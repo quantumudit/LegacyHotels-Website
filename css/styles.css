@@ -158,7 +158,7 @@ p{
 /* ############### Showcase Division Styles ############### */
 
 #showcase{
-    height: 75vh;
+    height: 700px;
     background: linear-gradient(rgba(0,0,0,0.75), rgba(0, 0, 0, 0.75)), url("../images/header-bg-img.jpg");
     background-size: cover;
     background-position: center;
@@ -379,4 +379,8 @@ p{
 .contact-info{
     background: #333;
     color: #F2F2F2;
+}
+
+.contact-info .block{
+    border-right: 1px dotted #222;
 }
